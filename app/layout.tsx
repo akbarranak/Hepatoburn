@@ -77,7 +77,6 @@ export const metadata: Metadata = {
     initialScale: 1,
     maximumScale: 5,
   },
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({
@@ -90,6 +89,8 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <meta name="google-site-verification" content="TmIv7NgXi743KFxQlrqeyDs-n1PLJKwAF_WozcXPoBU" />
+        <meta name="msvalidate.01" content="703574AB3F0D00BDDDF13A6398196E8A" />
       </head>
       <body>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
